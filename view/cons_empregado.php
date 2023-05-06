@@ -1,3 +1,4 @@
+
 <?php
 	require_once "Empregado.php";
 

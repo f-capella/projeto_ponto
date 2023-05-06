@@ -1,11 +1,11 @@
 <?php
     $config = [
-                "server" =>  "localhost", 
+                "server" =>  "mariadb-curso", 
                 "dbname" => "ponto_eletronico", 
                 "user" => "root", 
-                "password" => "",
+                "password" => "senac",
+                "port" => 3306,
                 "dbtype" => "mysql",
-                "port" => 3307,
                 "client_name" => "Empresa A"
     ];
 ?>
