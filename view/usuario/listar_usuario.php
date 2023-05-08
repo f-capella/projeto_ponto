@@ -25,5 +25,8 @@
 			?>
 			
 		</table>
+		
+			<br>
+			<a href="../view/principal.php">Principal</a>
 </body>
 </html>

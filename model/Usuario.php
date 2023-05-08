@@ -56,10 +56,10 @@ class Usuario
         $st = $con->prepare($sql);
         $st->bindParam(':id', $id);
 
-        $resultado = $st->execute();
+        $dados = $st->execute();
 
         $db->close();
-        return $resultado;
+        return $dados;
     }
 
 
@@ -75,7 +75,7 @@ class Usuario
         $status = $st->execute();
 
         $db->close();
-        return $dados;
+        return  true;
     }
 
 

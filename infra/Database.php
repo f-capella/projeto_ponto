@@ -13,7 +13,7 @@
         }
 
         private function loadConfig(){
-            include_once "config.ini.php";
+            $config = parse_ini_file('config.ini.php');
             $this->server = $config["server"];
             $this->dbName = $config["dbname"];
             $this->user = $config["user"];
