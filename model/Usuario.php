@@ -56,8 +56,9 @@ class Usuario
         $st = $con->prepare($sql);
         $st->bindParam(':id', $id);
 
-        $dados = $st->execute();
+        $resultado = $st->execute();
 
+        $dados = $st->fetchAll();
         $db->close();
         return $dados;
     }

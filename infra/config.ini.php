@@ -1,5 +1,5 @@
 <?php
-    server =  mariadb-curso
+    server =  localhost
     dbname = ponto_eletronico
     user = root
     password = 
